@@ -59,9 +59,9 @@
 .ali-message-form {
     border: 1px solid #bfbfbf;
     background-color: #ffffe1;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -ms-border-radius: 8px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
     .ali-hd .ali-message-icon:after {

@@ -1,0 +1,20 @@
+{
+  "name": "message",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/alimobstyle/message",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alimobstyle/message.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alimobstyle/message/issues"
+  },
+  "family": "alimobstyle",
+  "spm": {
+    "alias": {},
+    "output": [
+      "message.css"
+    ]
+  }
+}

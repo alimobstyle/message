@@ -6,6 +6,9 @@
     padding: 8px 8px 8px 45px;
     color: #333;
 }
+.ali-message-noicon{
+    padding-left: 8px;
+}
 .ali-message-icon,
 .ali-message-icon:after {
     position: absolute;

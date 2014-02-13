@@ -2,7 +2,7 @@
 
 ---
 
-// 消息提示
+消息提示
 
 ---
 
@@ -70,21 +70,3 @@
     <p>失败信息</p>
 </div>
 ````
-
-
-
-<script type="text/javascript">
-window.addEventListener('load', function () {
-    var interval = 500, begin = Date.now(), img = new Image(), timer = setTimeout(handler, interval);
-    window.removeEventListener('load', arguments.callee);
-    img.addEventListener('load', handler, false);
-    img.src = 'https://i.alipayobjects.com/e/201305/Q9jNoeIir.gif?t=' + begin;
-
-    function handler() {
-        clearTimeout(timer);
-        img.removeEventListener('load', handler);
-        //响应在500ms以内算高速网络 高清（HD）标清（SD）
-        document.body.className = (document.body.className + (Date.now() - begin < interval ? ' ali-hd' : ' ali-sd')).trim();
-    }
-}, false);
-</script>

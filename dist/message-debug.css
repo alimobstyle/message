@@ -63,6 +63,10 @@
     -webkit-border-radius: 3px;
     -ms-border-radius: 3px;
 }
+.ali-message-form p{
+    font-size: 14px;
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
     .ali-message-icon, .ali-hd .ali-message-icon:after {
         background-image: url(https://i.alipayobjects.com/e/201402/26AKVpoohh.png);

@@ -4,7 +4,7 @@
 .ali-message {
     position: relative;
     margin: 8px 0;
-    padding: 8px 8px 8px 60px;
+    padding: 8px 8px 8px 38px;
     color: #333;
 }
 .ali-message-noicon{
@@ -15,44 +15,45 @@
     top: 50%;
     left: 8px;
     z-index: 1;
-    margin-top: -23px;
+    margin-top: -12px;
 }
 .ali-message-icon:after {
     position: absolute;
-    width: 46px;
-    height: 46px;
+    width: 24px;
+    height: 24px;
     z-index: 999;
     content: "\0020";
     background-repeat: no-repeat;
-    -webkit-border-radius: 23px;
-    -moz-border-radius: 23px;
-    border-radius: 23px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
 }
 .ali-message-icon:after,
 .ali-sd .ali-message-icon:after,
 .ali-hd .ali-message-icon:after {
     background-image: url(https://i.alipayobjects.com/e/201402/26AKVpoohh.png);
+    background-size: 320px auto;
 }
 
 .ali-message-info .ali-message-icon:after {
-    border: 4px solid #47bee9;
-    background-position: -3px -3px;
+    border: 2px solid #47bee9;
+    background-position: -1px -2px;
 }
 .ali-message-warn .ali-message-icon:after {
-    border: 4px solid #ff8634;
-    background-position: -3px -50px;
+    border: 2px solid #ff8634;
+    background-position: -1px -25px;
 }
 .ali-message-success .ali-message-icon:after {
-    border: 4px solid #a3d461;
-    background-position: -3px -95px;
+    border: 2px solid #a3d461;
+    background-position: -1px -47px;
 }
 .ali-message-error .ali-message-icon:after {
-    border: 4px solid #c1c1c1;
-    background-position: -3px -141px;
+    border: 2px solid #c1c1c1;
+    background-position: -1px -70px;
 }
 
 .ali-message p{
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .ali-message-form {

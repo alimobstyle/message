@@ -3,75 +3,57 @@
 .ali-message {
     position: relative;
     margin: 8px 0;
-    padding: 8px 8px 8px 45px;
+    padding: 8px 8px 8px 60px;
     color: #333;
 }
 .ali-message-noicon{
     padding-left: 8px;
 }
-.ali-message-icon,
-.ali-message-icon:after {
-    position: absolute;
-    width: 32px;
-    height: 32px;
-}
 .ali-message-icon {
+    position: absolute;
     top: 50%;
     left: 8px;
     z-index: 1;
-    margin-top: -16px;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -ms-border-radius: 16px;
+    margin-top: -23px;
 }
 .ali-message-icon:after {
-    top: 0;
-    left: 0;
+    position: absolute;
+    width: 46px;
+    height: 46px;
     z-index: 999;
     content: "\0020";
     background-repeat: no-repeat;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
 }
 .ali-message-icon:after,
 .ali-sd .ali-message-icon:after,
 .ali-hd .ali-message-icon:after {
-    background-image: url(https://i.alipayobjects.com/e/201306/Ss1aIdyvt.png);
+    background-image: url(https://i.alipayobjects.com/e/201402/26AKVpoohh.png);
 }
-.ali-message-info .ali-message-icon {
-    background-color: #2277bb;
-    /*
-    border-color: #2277bb;
-    */
-}
+
 .ali-message-info .ali-message-icon:after {
-background-position: 0 -96px;
-}
-.ali-message-warn .ali-message-icon {
-background-color: #ff8634;
-/*
-border-color: #ff8634;
-*/
+    border: 4px solid #47bee9;
+    background-position: -3px -3px;
 }
 .ali-message-warn .ali-message-icon:after {
-background-position: 0 -64px;
-}
-.ali-message-success .ali-message-icon {
-    background-color: #3bb000;
-    /*
-    border-color: #3bb000;
-    */
+    border: 4px solid #ff8634;
+    background-position: -3px -50px;
 }
 .ali-message-success .ali-message-icon:after {
-    background-position: 0 -32px;
-}
-.ali-message-error .ali-message-icon {
-    background-color: #ff3a0c;
-    /*
-    border-color: #ff3a0c;
-    */
+    border: 4px solid #a3d461;
+    background-position: -3px -95px;
 }
 .ali-message-error .ali-message-icon:after {
-    background-position: 0 0;
+    border: 4px solid #c1c1c1;
+    background-position: -3px -141px;
 }
+
+.ali-message p{
+    font-size: 22px;
+}
+
 .ali-message-form {
     border: 1px solid #bfbfbf;
     background-color: #ffffe1;
@@ -81,7 +63,6 @@ background-position: 0 -64px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
     .ali-message-icon, .ali-hd .ali-message-icon:after {
-        background-image: url(https://i.alipayobjects.com/e/201306/Ss1WYBVZV.png);
-        background-size: 130px auto;
+        background-image: url(https://i.alipayobjects.com/e/201402/26AKVpoohh.png);
     }
 }

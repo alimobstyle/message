@@ -16,9 +16,6 @@
 <div class="ali-message ali-message-info">
     <div class="ali-message-icon"></div>
     <p>提示信息</p>
-    <p>提示信息</p>
-    <p>提示信息</p>
-    <p>提示信息</p>
 </div>
 ````
 
@@ -27,7 +24,6 @@
 <div class="ali-message ali-message-warn">
     <div class="ali-message-icon"></div>
     <p>提示信息</p>
-    <p>提示信息</p>
 </div>
 ````
 
@@ -35,7 +31,7 @@
 ````html
 <div class="ali-message ali-message-error">
     <div class="ali-message-icon"></div>
-    <p>成功信息</p>
+    <p>失败信息</p>
 </div>
 ````
 
@@ -43,7 +39,7 @@
 ````html
 <div class="ali-message ali-message-success">
     <div class="ali-message-icon"></div>
-    <p>失败信息</p>
+    <p>成功信息</p>
 </div>
 ````
 
@@ -52,6 +48,14 @@
 <div class="ali-message ali-message-form ali-message-info">
     <div class="ali-message-icon"></div>
     <p>提示信息</p>
+</div>
+````
+
+### Message-form-警告
+````html
+<div class="ali-message ali-message-form ali-message-warn">
+    <div class="ali-message-icon"></div>
+    <p>警告信息</p>
 </div>
 ````
 

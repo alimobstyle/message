@@ -1,23 +1,23 @@
 {
-  "family": "alimobstyle",
-  "name": "message",
-  "description": "alibaba mobile css theme - 消息提示",
-  "version": "1.0.0",
-  "homepage": "https://github.com/alimobstyle/message",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/alimobstyle/message.git"
-  },
-  "bugs": {
-    "url": "https://github.com/alimobstyle/message/issues"
-  },
-  "keywords": ["widget"],
-  "spm": {
-    "alias": {
-        "base": "alimobstyle/base/1.0.0/base.css"
+    "family": "alimobstyle",
+    "name": "message",
+    "description": "alibaba mobile css theme - 消息提示",
+    "version": "1.0.0",
+    "homepage": "https://github.com/alimobstyle/message",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alimobstyle/message.git"
     },
-    "output": [
-      "message.css"
-    ]
-  }
+    "bugs": {
+        "url": "https://github.com/alimobstyle/message/issues"
+    },
+    "keywords": ["widget"],
+    "spm": {
+        "alias": {
+            "one": "alimobstyle/one/1.0.1/one.css"
+        },
+        "output": [
+            "message.css"
+        ]
+    }
 }
